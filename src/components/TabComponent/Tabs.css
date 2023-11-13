@@ -1,0 +1,64 @@
+
+.tab-button{
+    color: #afb3bd;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    margin: 0;
+    padding: 10px 20px;
+    border: none;
+    background-color: transparent;
+}
+.tab-button.active{
+   background-color: #afb3bd;
+   color:#414f6b;
+}
+
+
+
+.mountain-container{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    min-height: 80vh;
+    margin: 0;
+}
+.mountain-container .content{    
+    background-image: url("../../assets/mountain1.jpg");
+    background-color:#414f6b;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    height: 100%;
+    width: 100%;
+}
+.mountain-container .mountain2{    
+    background-image: url("../../assets/mountain2.jpg");
+}
+.active{
+    z-index: 2 !important;
+}
+
+
+.schedule{
+    background: #f0f2f5;
+    padding: 25px 40px;
+    margin: 50px 30px;
+    max-width: 350px;
+}
+.schedule h6{
+    font-size: 32px;
+    color: #414f6b;
+    font-family: 'Oswald', sans-serif;
+    margin: 0 0 10px;
+}
+.schedule span{
+    font-size: 16px;
+    color: #000;
+    font-family: 'Lato', sans-serif;
+}
+.grid-2-col{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}

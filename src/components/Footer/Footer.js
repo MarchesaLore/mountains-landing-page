@@ -1,0 +1,16 @@
+
+import './Footer.scss';
+import React from 'react';
+
+function Footer() {
+  return (
+    <footer class="blue-background">
+        <div class="container">
+            <div><img src="/footer-logo.png" alt="thumb" /></div>
+            <div><span>COPYRIGHT 2016. ALL RIGHTS RESERVED.</span></div>
+        </div>
+    </footer>
+  );
+}
+
+export default Footer;

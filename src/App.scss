@@ -1,0 +1,8 @@
+/*GENERIC*/
+.container{
+  max-width: 960px;
+  margin: auto;
+  @media (max-width: 950px) {
+    padding: 15px;
+  }
+}

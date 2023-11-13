@@ -1,0 +1,78 @@
+/*body*/
+.Homepage{
+    scroll-snap-type: y mandatory;
+    > .section{
+        width: 100%;
+        min-height: calc(100vh - 67px);
+        display: flex;
+        scroll-snap-align: start;
+        &:first-child{
+            min-height: 100vh;
+        }
+    }
+}
+
+/*hero*/
+.hero{    
+    background-image: url("../assets/hero-image-los-angeles-mountains.jpg");
+    background-color:#414f6b;
+    background-size: cover;
+    height: 100%;
+    position: relative;
+    background-position: center;
+    img{
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+    }
+}
+
+
+/*HISTORY*/
+.history{
+    background-image: url("../assets/history-img.jpg");
+    background-color:#414f6b;
+    background-size: cover;
+    background-position: bottom;
+    min-height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+.carousel-container{
+    background-color: #414f6bd1;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    .carousel{
+        margin: 30px auto;
+    }
+}
+
+
+.blue-background{
+    background-color: #414f6b;
+}
+
+
+.team{
+    display: flex;
+    flex-direction: column;
+}
+/*mobile*/
+@media (max-width: 950px) {
+    .section{
+        height: 100%;
+        min-height: 450px;
+    }
+    .history, .mountain-container{
+        min-height: 600px;
+    }
+    footer .container{
+        display: block;
+    }
+    footer .container div{
+        width: 100%;
+        text-align: center;
+    }
+}

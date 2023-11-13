@@ -1,0 +1,20 @@
+
+/*footer*/
+footer div{
+    display: flex;
+    justify-content: space-between;
+    color: #63769d;
+    font-family: 'Lato', sans-serif;
+    font-style: italic;
+    font-weight: 900;
+}
+footer span{
+    padding: 40px 0;
+    margin: auto;
+}
+footer img{
+    width: auto;
+    padding: 20px;
+    margin: auto;
+    max-height: 40px;
+}
