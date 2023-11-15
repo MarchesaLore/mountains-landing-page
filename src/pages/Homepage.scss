@@ -28,6 +28,10 @@
         font-size: 5em;
         margin: 0;
         color: #f3c59c;
+        text-transfrom: uppercase;
+        background: linear-gradient(45deg, #f2ad90, #acc3f9, #14223c);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
     }
 
 }
