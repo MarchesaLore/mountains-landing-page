@@ -6,7 +6,8 @@ function Footer() {
   return (
     <footer class="blue-background">
         <div class="container">
-            <div><img src="/footer-logo.png" alt="thumb" /></div>
+            
+            <div className="circle">circle</div>
             <div><span>COPYRIGHT 2016. ALL RIGHTS RESERVED.</span></div>
         </div>
     </footer>

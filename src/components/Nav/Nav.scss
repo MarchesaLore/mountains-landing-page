@@ -12,7 +12,7 @@ html{
     z-index: 999;
 }
 .nav{
-    color: #ffffff;
+    color: #f3c59c;
     text-transform: uppercase;
     display: flex;
     justify-content: space-between;
@@ -21,11 +21,14 @@ html{
         font-family: 'Lato', sans-serif;
         font-style: italic;
         font-weight: 900;
-        color: #fff;
+        color: #f3c59c;
     
     }
-    div img{
-        margin: 10px 20px;
+    div{
+        display: flex;
+        img{
+            margin: 10px 20px;
+        }
     }
     ul {
         list-style-type: none;
@@ -46,11 +49,12 @@ html{
 
 .only-on-white{
     display: none;
+    color: #f3c59c;
 }
 .background-white{
     background-color: #ffffff;
     a{
-        color: #414f6b;
+        color: #f3c59c;
     }
     .only-on-white{
         display: inline;

@@ -10,7 +10,7 @@
 }
 .tab-button.active{
    background-color: #afb3bd;
-   color:#414f6b;
+   color:#274484;
 }
 
 
@@ -24,7 +24,7 @@
 }
 .mountain-container .content{    
     background-image: url("../../assets/mountain1.jpg");
-    background-color:#414f6b;
+    background-color:#274484;
     background-size: cover;
     position: absolute;
     top: 0;
@@ -48,7 +48,7 @@
 }
 .schedule h6{
     font-size: 32px;
-    color: #414f6b;
+    color: #274484;
     font-family: 'Oswald', sans-serif;
     margin: 0 0 10px;
 }

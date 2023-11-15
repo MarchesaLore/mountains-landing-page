@@ -9,11 +9,13 @@ function Homepage() {
   return (
     <div className="Homepage">
         <div className="section hero">
+            <h1>LORENA MARCHESIN</h1>
+            <h2>MOUNTAINS</h2>
         </div>
         <div className="section">
             <div id="HISTORY" className="history">
                 
-            <ContentText numbertoprint={"01."} title={"HISTORY"} content={"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin in ante viverra, rutrum erat rutrum, consectetur mi. Proin at maximus est. Nullam purus ex, iaculis sed erat sed, blandit tincidunt quam. Cras scelerisque id quam sed dignissim Pellentesque urna nunc, gravida quis hendrerit ac, tristique ut quam. Vivamus suscipit dignissim tortor nec congue."}/>
+            <ContentText numbertoprint={"01."} title={"HISTORY"} content={"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin in ante viverra, rutrum erat rutrum, consectetur mi. Proin at maximus est. Nullam purus ex, iaculis sed erat sed, blandit tincidunt quam. Cras scelerisque id quam sed dignissim Pellentesque urna nunc, gravida quis hendrerit ac, tristique ut quam. Vivamus suscipit dignissim tortor nec congue."} isDark={false}/>
 
                 <div className="carousel-container">
                     <div className="carousel">
@@ -25,7 +27,7 @@ function Homepage() {
         </div>
         <div className="section team" id="TEAM">
                 
-            <ContentText numbertoprint={"02."} title={"TEAM"} content={"Cras scelerisque id quam sed dignissim Pellentesque urna nunc, gravida quis hendrerit ac, tristique ut quam. Vivamus suscipit dignissim tortor nec congue."}/>
+            <ContentText numbertoprint={"02."} title={"TEAM"} content={"Cras scelerisque id quam sed dignissim Pellentesque urna nunc, gravida quis hendrerit ac, tristique ut quam. Vivamus suscipit dignissim tortor nec congue."} isDark={true}/>
 
             <Tabs />
                 

@@ -14,24 +14,29 @@
 
 /*hero*/
 .hero{    
-    background-image: url("../assets/hero-image-los-angeles-mountains.jpg");
-    background-color:#414f6b;
+    background-image: url("../assets/samuel-ferrara-1527pjeb6jg-unsplash.jpg");
+    background-color:#274484;
     background-size: cover;
     height: 100%;
     position: relative;
-    background-position: center;
-    img{
-        object-fit: cover;
-        width: 100%;
-        height: 100%;
+    background-position: top;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    h1, h2{
+        font-size: 5em;
+        margin: 0;
+        color: #f3c59c;
     }
+
 }
 
 
 /*HISTORY*/
 .history{
-    background-image: url("../assets/history-img.jpg");
-    background-color:#414f6b;
+    background-image: url("../assets/samuel-ferrara-uOi3lg8fGl4-unsplash.jpg");
+    background-color:#274484;
     background-size: cover;
     background-position: bottom;
     min-height: 100%;
@@ -40,7 +45,7 @@
 }
 
 .carousel-container{
-    background-color: #414f6bd1;
+   // background-color: #274484d1;
     position: absolute;
     bottom: 0;
     width: 100%;
@@ -51,7 +56,7 @@
 
 
 .blue-background{
-    background-color: #414f6b;
+    background-color: #274484;
 }
 
 

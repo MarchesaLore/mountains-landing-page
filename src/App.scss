@@ -6,3 +6,18 @@
     padding: 15px;
   }
 }
+.circle{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #f3c59c;
+    color: transparent;
+    margin: 10px;
+}
+p{
+  color: #f3c59c;
+  &.dark{
+    color: #274484;
+  }
+}
+

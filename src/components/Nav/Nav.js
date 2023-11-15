@@ -12,8 +12,11 @@ function Nav() {
     <div className={scroll ? "nav-container background-white" : "nav-container"}>
         <div className="nav container">
             <div>
-                <img src=".\logo-los-angeles-mountains.png" alt="log angeles mountains logo" />
-                <img className="only-on-white" src=".\logo-los-angeles-mountains-text.png" alt="log angeles mountains logo" />
+                <div className="circle">circle</div>
+                <ul>
+                    <li><a href='#' className="only-on-white">Mountains</a></li>
+                </ul>
+                
             </div>
             <ul>
                 <li><a href="#HISTORY" smooth="true">01. HISTORY</a></li>

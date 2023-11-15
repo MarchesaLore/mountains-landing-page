@@ -22,18 +22,18 @@ export const Tabs = () =>{
             <div className="schedule">
               <h6>SCHEDULE</h6>
               <div className="grid-2-col">
-                <span>25 Nov 2016</span>
-                <span>Vestibulum viverra</span>
-                <span>28 Nov 2016</span>
-                <span>Vestibulum viverra</span>
-                <span></span>
-                <span></span>
-                <span>18 Dec 2016</span>
-                <span>Vestibulum viverra</span>
-                <span></span>
-                <span></span>
-                <span>7 Jan 2016</span>
-                <span>Vestibulum viverra</span>
+                <span>00 Jan 0000</span>
+                <span>Lorem Ipsum</span>
+                <span>00 Jan 0000</span>
+                <span>Lorem Ipsum</span>
+                <span>00 Jan 0000</span>
+                <span>Lorem Ipsum</span>
+                <span>00 Jan 0000</span>
+                <span>Lorem Ipsum</span>
+                <span>00 Jan 0000</span>
+                <span>Lorem Ipsum</span>
+                <span>00 Jan 0000</span>
+                <span>Lorem Ipsum</span>
               </div>
             </div>
           </div>
@@ -43,18 +43,18 @@ export const Tabs = () =>{
             <div className="schedule">
               <h6>SCHEDULE</h6>
               <div className="grid-2-col">
-                <span>17 Nov 2016</span>
-                <span>Vestibulum viverra</span>
-                <span></span>
-                <span></span>
-                <span>13 Dec 2016</span>
-                <span>Vestibulum viverra</span>
-                <span>28 Dec 2016</span>
-                <span>Vestibulum viverra</span>
-                <span></span>
-                <span></span>
-                <span>9 Feb 2016</span>
-                <span>Vestibulum viverra</span>
+                <span>00 Jan 0000</span>
+                <span>Lorem Ipsum</span>
+                <span>00 Jan 0000</span>
+                <span>Lorem Ipsum</span>
+                <span>00 Jan 0000</span>
+                <span>Lorem Ipsum</span>
+                <span>00 Jan 0000</span>
+                <span>Lorem Ipsum</span>
+                <span>00 Jan 0000</span>
+                <span>Lorem Ipsum</span>
+                <span>00 Jan 0000</span>
+                <span>Lorem Ipsum</span>
               </div>
             </div>
           </div>
