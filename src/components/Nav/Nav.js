@@ -8,13 +8,16 @@ function Nav() {
         setScroll(window.scrollY > 200)
         })
     }, [])
+    const handleScrollToTop = () => {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      };
   return (    
     <div className={scroll ? "nav-container background-white" : "nav-container"}>
         <div className="nav container">
             <div>
                 <div className="circle">circle</div>
                 <ul>
-                    <li><a href='#' className="only-on-white">Mountains</a></li>
+                    <li><button className="only-on-white" onClick={handleScrollToTop}>Mountains</button></li>
                 </ul>
                 
             </div>
