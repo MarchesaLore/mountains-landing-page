@@ -1,3 +1,5 @@
+<a href="https://lm-mountains-landing-page.netlify.app/">Netlify Site using this code</a>
+
 I have created a simple landing page using REACT from a psd I got for an interview.
 Goal is to use it as a reference in the future:
 
