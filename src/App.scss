@@ -9,10 +9,14 @@
 .circle{
     width: 40px;
     height: 40px;
+    max-width: 40px;
     border-radius: 50%;
     background-color: #f3c59c;
     color: transparent;
     margin: 10px;
+    @media (max-width: 950px) {
+      margin: auto;
+    }
 }
 p{
   color: #f3c59c;

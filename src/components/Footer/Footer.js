@@ -8,7 +8,7 @@ function Footer() {
         <div class="container">
             
             <div className="circle">circle</div>
-            <div><span>COPYRIGHT 2016. ALL RIGHTS RESERVED.</span></div>
+            <div><span>COPYRIGHT {(new Date().getFullYear())}. ALL RIGHTS RESERVED.</span></div>
         </div>
     </footer>
   );
